@@ -29,3 +29,11 @@ data "aws_ssm_parameter" "organization_tag_key" {
 data "aws_ssm_parameter" "department_tag_key" {
   name = "/aft_extension/org/tag/department_tag_key"
 }
+
+data "aws_ssm_parameter" "patch_cycle_tag_key" {
+  name = "/aft_extension/org/tag/patch_cycle_tag_key"
+}
+
+data "aws_ssm_parameter" "power_management_tag_key" {
+  name = "/aft_extension/org/tag/power_management_tag_key"
+}

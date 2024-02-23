@@ -29,3 +29,11 @@ output "organization_tag_key" {
 output "department_tag_key" {
   value = data.aws_ssm_parameter.department_tag_key.value
 }
+
+output "patch_cycle_tag_key" {
+  value = data.aws_ssm_parameter.patch_cycle_tag_key.value
+}
+
+output "power_management_tag_key" {
+  value = data.aws_ssm_parameter.power_management_tag_key.value
+}
